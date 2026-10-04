@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N;CHARSET=UTF-8:عبد الواحد;رفعت;عثمان;;
+FN;CHARSET=UTF-8:رفعت عثمان عبد الواحد
+NICKNAME:Refat Othman Abdulwahed
+TITLE;CHARSET=UTF-8:مهندس برمجيات
+ORG;CHARSET=UTF-8:جامعة دمشق
+TEL;TYPE=CELL:+963992841193
+EMAIL;TYPE=INTERNET:refatabdalwahed@gmail.com
+URL:https://github.com/Refat12345
+ADR;CHARSET=UTF-8:;;دمشق;;;سوريا
+NOTE;CHARSET=UTF-8:Refat Othman Abdulwahed — Software Engineer — Damascus University
+END:VCARD

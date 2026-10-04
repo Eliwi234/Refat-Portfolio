@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="بورتفوليو رفعت عبد الواحد، مهندس برمجيات خريج جامعة دمشق.">
+  <meta name="theme-color" content="#f4efe8">
+  <meta name="author" content="Refat Abdulwahed">
+  <meta property="og:title" content="رفعت عبد الواحد — مهندس برمجيات">
+  <meta property="og:description" content="أنظمة React و Next.js شغالة. دمشق.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://eliwi234.github.io/Refat-Portfolio/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/styles.css?v=4">
+  <title>رفعت عبد الواحد — مهندس برمجيات</title>
+  <script>
+    (function () {
+      var lang = localStorage.getItem("refat-lang");
+      if (lang !== "en" && lang !== "ar") lang = "ar";
+      document.documentElement.lang = lang;
+      document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Refat Othman Abdulwahed",
+    "alternateName": "رفعت عثمان عبد الواحد",
+    "jobTitle": "Software Engineer",
+    "alumniOf": "Damascus University",
+    "email": "mailto:refatabdalwahed@gmail.com",
+    "telephone": "+963992841193",
+    "url": "https://github.com/Refat12345",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Damascus",
+      "addressCountry": "SY"
+    }
+  }
+  </script>
+</head>
+<body>
+  <a class="skip" href="#content">تخطي إلى المحتوى</a>
+  <div class="progress" id="progress"></div>
+
+  <header class="nav">
+    <a class="brand" href="#top" aria-label="Refat Abdulwahed">
+      <span class="brand-mark" aria-hidden="true">RO</span>
+      <span>REFAT</span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">
+      <span></span><span></span>
+      <span class="sr" data-i18n="nav.menu">القائمة</span>
+    </button>
+    <div class="nav-panel" id="nav-panel">
+      <nav class="nav-links" aria-label="primary">
+        <a href="#top" data-i18n="nav.home">الرئيسية</a>
+        <a href="#services" data-i18n="nav.services">الخدمات</a>
+        <a href="#work" data-i18n="nav.work">الأعمال</a>
+        <a href="#about" data-i18n="nav.about">عني</a>
+        <a href="#resume" data-i18n="nav.resume">الخبرة</a>
+        <a href="#contact" data-i18n="nav.contact">تواصل</a>
+      </nav>
+      <div class="nav-tools">
+        <div class="lang" role="group" aria-label="language">
+          <button type="button" data-lang="ar" aria-pressed="true">عربي</button>
+          <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a class="btn small" href="cv.html">
+          <span data-i18n="cv.view">اعرض السيرة</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="hero-hello" data-i18n="hero.iam">أهلاً، أنا</p>
+        <h1 class="hero-name" id="hero-name"><span>رفعت عبد الواحد</span></h1>
+        <p class="hero-tag" data-i18n="hero.tagline"></p>
+        <p class="hero-lead" data-i18n="hero.lead"></p>
+        <p class="role-line" id="role-rotate">مهندس برمجيات</p>
+        <div class="hero-actions">
+          <a class="btn" href="#work" data-i18n="hero.primary">شوف شغلي</a>
+          <a class="btn ghost" href="assets/cv/Refat-Othman-CV.pdf" download data-i18n="cv.download">نزّل السيرة</a>
+          <a class="btn ghost" href="cv.html" data-i18n="cv.view">اعرض السيرة</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/Refat12345" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://wa.me/963992841193" target="_blank" rel="noreferrer">WhatsApp</a>
+          <a href="mailto:refatabdalwahed@gmail.com">Email</a>
+        </div>
+      </div>
+      <figure class="hero-photo hero-mark">
+        <div class="mark-panel">
+          <span>RO</span>
+          <strong id="hero-alt">Refat Abdulwahed</strong>
+          <em data-i18n="hero.eyebrow">مهندس برمجيات · جامعة دمشق</em>
+        </div>
+        <figcaption>
+          <span data-i18n="hero.based">دمشق، سوريا</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section reveal" id="services">
+      <div class="section-head">
+        <p class="kicker" data-i18n="services.kicker">شو بشتغل</p>
+        <h2 data-i18n="services.title">الشغل اللي بقدمه</h2>
+      </div>
+      <div class="service-grid">
+        <article>
+          <span class="svc-no">01</span>
+          <h3 data-i18n="services.s1t"></h3>
+          <p data-i18n="services.s1d"></p>
+        </article>
+        <article>
+          <span class="svc-no">02</span>
+          <h3 data-i18n="services.s2t"></h3>
+          <p data-i18n="services.s2d"></p>
+        </article>
+        <article>
+          <span class="svc-no">03</span>
+          <h3 data-i18n="services.s3t"></h3>
+          <p data-i18n="services.s3d"></p>
+        </article>
+        <article>
+          <span class="svc-no">04</span>
+          <h3 data-i18n="services.s4t"></h3>
+          <p data-i18n="services.s4d"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal" id="work">
+      <div class="section-head split">
+        <div>
+          <p class="kicker" data-i18n="work.kicker">الأعمال</p>
+          <h2 data-i18n="work.title"></h2>
+          <p class="section-lead" data-i18n="work.lead"></p>
+        </div>
+        <div class="filters" role="group">
+          <button type="button" data-filter="all" aria-pressed="true" data-i18n="filter.all">الكل</button>
+          <button type="button" data-filter="product" aria-pressed="false" data-i18n="filter.product">منتجات</button>
+          <button type="button" data-filter="system" aria-pressed="false" data-i18n="filter.system">أنظمة</button>
+        </div>
+      </div>
+      <div id="work-list" class="work-list"></div>
+    </section>
+
+    <section class="section about reveal" id="about">
+      <div class="about-layout">
+        <div class="portrait-wrap">
+          <div class="portrait-frame">
+            <span class="monogram" aria-hidden="true">RO</span>
+          </div>
+          <p class="portrait-name" id="about-name">رفعت عبد الواحد</p>
+          <p class="portrait-role">مهندس برمجيات</p>
+        </div>
+        <div class="about-copy">
+          <p class="kicker" data-i18n="about.kicker">عني</p>
+          <h2 data-i18n="about.title"></h2>
+          <p class="about-body" data-i18n="about.body"></p>
+          <dl class="about-list">
+            <div><dt data-i18n="about.p1t"></dt><dd data-i18n="about.p1d"></dd></div>
+            <div><dt data-i18n="about.p2t"></dt><dd data-i18n="about.p2d"></dd></div>
+            <div><dt data-i18n="about.p3t"></dt><dd data-i18n="about.p3d"></dd></div>
+            <div><dt data-i18n="about.p4t"></dt><dd data-i18n="about.p4d"></dd></div>
+          </dl>
+          <div class="stats">
+            <div><strong id="stat-projects">8</strong><span data-i18n="stat.projects"></span></div>
+            <div><strong>3+</strong><span data-i18n="stat.years"></span></div>
+            <div><strong>2</strong><span data-i18n="stat.langs"></span></div>
+          </div>
+          <div class="cv-box" id="cv">
+            <div>
+              <p class="kicker" data-i18n="cv.kicker">السيرة</p>
+              <h3 data-i18n="cv.title"></h3>
+              <p data-i18n="cv.lead"></p>
+            </div>
+            <div class="cv-actions">
+              <a class="btn" href="assets/cv/Refat-Othman-CV.pdf" download data-i18n="cv.download">تنزيل السيرة PDF</a>
+              <a class="btn ghost" href="cv.html" data-i18n="cv.view">عرض السيرة</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="resume">
+      <div class="section-head">
+        <p class="kicker" data-i18n="resume.kicker">الخبرة</p>
+        <h2 data-i18n="resume.title"></h2>
+        <p class="section-lead" data-i18n="resume.lead"></p>
+      </div>
+      <div class="resume-grid">
+        <div id="company-board"></div>
+        <div class="resume-side">
+          <article class="edu-card">
+            <h3 data-i18n="resume.academic"></h3>
+            <p class="edu-school" data-i18n="edu.school"></p>
+            <p data-i18n="edu.degree"></p>
+            <p class="edu-note" data-i18n="edu.note"></p>
+          </article>
+          <div id="skill-groups" class="skill-groups"></div>
+          <article class="ability-card">
+            <h3 data-i18n="resume.abilities"></h3>
+            <ul>
+              <li data-i18n="ability.1"></li>
+              <li data-i18n="ability.2"></li>
+              <li data-i18n="ability.3"></li>
+              <li data-i18n="ability.4"></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact reveal" id="contact">
+      <div class="section-head">
+        <p class="kicker" data-i18n="contact.kicker">تواصل</p>
+        <h2 data-i18n="contact.title"></h2>
+        <p class="section-lead" data-i18n="contact.lead"></p>
+      </div>
+
+      <div class="reach">
+        <article>
+          <p data-i18n="contact.call">احكيلي</p>
+          <a href="tel:+963992841193">0992 841 193</a>
+          <span class="sub ltr">+963 992 841 193</span>
+          <a class="sub-link" href="https://wa.me/963992841193" target="_blank" rel="noreferrer" data-i18n="contact.whatsapp">واتساب</a>
+        </article>
+        <article>
+          <p data-i18n="contact.mail">للشغل، ابعت إيميل</p>
+          <a href="mailto:refatabdalwahed@gmail.com">refatabdalwahed@gmail.com</a>
+        </article>
+        <article>
+          <p data-i18n="contact.place">المكان</p>
+          <strong data-i18n="about.p2d">دمشق، سوريا</strong>
+          <a href="https://github.com/Refat12345" target="_blank" rel="noreferrer">github.com/Refat12345</a>
+          <a href="assets/contact/Refat-Othman.vcf" download data-i18n="contact.save">حفظ جهة الاتصال</a>
+        </article>
+      </div>
+
+      <form id="contact-form" class="form">
+        <label>
+          <span data-i18n="contact.formName">الاسم</span>
+          <input id="form-name" name="name" type="text" required autocomplete="name">
+        </label>
+        <label>
+          <span data-i18n="contact.formEmail">بريدك</span>
+          <input id="form-email" name="email" type="email" required autocomplete="email">
+        </label>
+        <label class="full">
+          <span data-i18n="contact.subjectField">الموضوع</span>
+          <input id="form-subject" name="subject" type="text" autocomplete="off">
+        </label>
+        <label class="full">
+          <span data-i18n="contact.formMessage">الرسالة</span>
+          <textarea id="form-message" name="message" rows="6" required></textarea>
+        </label>
+        <button class="btn" type="submit" data-i18n="contact.send">فتح الرسالة في البريد</button>
+        <p class="quiet" data-i18n="contact.note"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>Refat Abdulwahed</strong>
+      <p data-i18n="footer.note"></p>
+    </div>
+    <div class="footer-meta">
+      <a href="mailto:refatabdalwahed@gmail.com">refatabdalwahed@gmail.com</a>
+      <a class="ltr" href="tel:+963992841193">+963 992 841 193</a>
+      <span data-i18n="about.p2d">دمشق، سوريا</span>
+    </div>
+    <a class="btn" href="#cv" data-i18n="nav.cv">السيرة</a>
+    <p class="copy">© <span id="year">2026</span> Refat Abdulwahed</p>
+  </footer>
+
+  <div id="lightbox" class="lightbox" hidden>
+    <button type="button" class="lightbox-close" id="lightbox-close" data-i18n="project.close">إغلاق</button>
+    <img id="lightbox-img" alt="">
+  </div>
+  <div id="toast" role="status"></div>
+  <noscript><p class="noscript">فعّل JavaScript لعرض المشاريع وتبديل اللغة.</p></noscript>
+
+  <script src="js/content.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
